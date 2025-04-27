@@ -29,6 +29,9 @@ public class Principal {
         gestor.eliminarTarea(3);
         System.out.println("\nTareas despues de eliminar ID 3:");
         gestor.listarTareas();
+        
+        //Mostrar cantidad de tareas
+        System.out.println("\nCantidad total de tareas: " + gestor.contarTareas());
     }
     
 }

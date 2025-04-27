@@ -31,4 +31,9 @@ public class GestorTareasHashSet {
     public boolean existeTarea(int id) {
         return conjuntoTareas.stream().anyMatch(t -> t.getId() == id);
     }
+    
+    //metodo 5
+    public int contarTareas() {
+        return conjuntoTareas.size();
+    }
 }
